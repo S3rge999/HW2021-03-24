@@ -1,0 +1,336 @@
+<html lang="en"><head>
+    <title>虎科外語學習班</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#carouselExampleIndicators').carousel({ interval: 4000 });
+      });
+    </script>
+    <link rel="stylesheet" href="./css/myStyle.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3e7f3;">
+      <a class="navbar-brand" href="./index.html">虎科程式語言班</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">課程介紹 </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">C++</a>
+              <a class="dropdown-item" href="#">Java</a>
+              <a class="dropdown-item" href="#">Python</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">html</a>
+              <a class="dropdown-item" href="#">php</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">測驗介紹 </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">C++</a>
+              <a class="dropdown-item" href="#">Java</a>
+              <a class="dropdown-item" href="#">Python</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">大學程式能力檢定 | cpe</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.csie.nfu.edu.tw/zh/member/2015-07-23-01-11-57">師資介紹</a>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.csie.nfu.edu.tw/zh/device">環境設備</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experience">學員專區</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">班級課程</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">c++基礎班</a>
+              <a class="dropdown-item" href="#">JAVA進階班</a>
+              <a class="dropdown-item" href="#">Go高階班</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">網頁設計畢業班</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input disabled="value" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="03.jpg" width="600" height="550" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+          <img src="01.jpg" width="600" height="550" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="02.jpg" width="600" height="550" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  
+    <!-- 最新消息 -->
+    <div class="container">
+      <h1 class="mt-5">最新報名優惠</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2>
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                2021.03.23 <span class="text-danger">NEW! </span>第17屆台灣軟體工程研討會 (TCSE 2021)，敬邀相關系所師生踴躍投稿
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              AI資訊人才實習甄選開跑囉~歡迎有興趣同學於4/30(五)前回傳履歷資料!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2>
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2021.03.20 <span class="text-danger">NEW! </span>國際學術研討會-運用資通訊科技在資源不足地區的醫療照護模式
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              時間：110年3月27日(六)08：50-16：40，於08：20開始報到。<p></p>
+              視訊參與將另行以E-mail通知與會者視訊會議連結與相關事宜。<br>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2>
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                2021.03.15 <span class="text-danger">NEW! </span>敬邀優秀學子參與2021KKBOX Group 軟體開發人才培育計畫
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              有需要辦理的同學，請自行留意時間<p></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 新進教師 -->
+    <div class="container-fluid mt-5 px-4">
+      <h1 class="mt-5">師資陣容</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="juice-wrld.jpg" width="450" height="350" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bold;">Jarad Anthony Higgins</h5>
+              <p class="card-text" style="text-align:justify;">
+                擅長科目：c++ java Python html php<br>
+                號稱永遠的第一： 搶在1月1日星期一凌晨出生，所以唸書也要勇闖第一志願：北一女中，台大外文系，師大英語研究所教學組 多才多藝猴腮雷： 曾多次擔任國際活動指定口譯員，精通英、法、日語，鋼琴、南胡演奏難不倒我 補教資歷超豐富： 曾參與編著高中英文課本(龍騰版、遠東版)、多次受邀擔任國中基測及高中學測指考題目主解人、曾任教於成功高中、北一女中、亦於各大補習班開班授課，教學資歷十餘年
+              </p>
+              <button class="btn btn-primary">詳細資訊</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="trippie-redd.jpg" width="450" height="350" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bold;">Michael Lamar White IV</h5>
+              <p class="card-text" style="text-align:justify;">
+                擅長科目：c++ java<br>
+                曾任教於台北市公立高中及各大補習班，教學經驗20餘年。從閱卷、解題老師開始，一步步走上講台，走過各大補習班，我自豪自己的教學經驗豐富，從KK音標到成人美語，我都教過，但更自豪的是我的教學熱情，數十年如一日。
+              </p>
+              <button class="btn btn-primary">詳細資訊</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="s01.jpg" width="450" height="350" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bold;">Symere Woods</h5>
+              <p class="card-text" style="text-align:justify;">
+                擅長科目：html php<br>
+                本科系出生的黃威老師，是輔仁大學英國語文學系學士，東海大學英語教學組碩士。不但擁有英語教學方面專業的理論知識、更能將所學運用在與實務的教學上。黃威 老師在研究所階段曾參與過許多英文教學國際研討會，也曾是大學英文寫作中心的助教。在學術研究表現方面，黃威老師深入研究英文字彙的記憶方法，獲得「學生 學術研究成果特優獎」，又於香港科技大學國際英語文教學研討會發表研究。這樣的過程，讓黃威老師英語教學的專業知識更加豐富。
+              </p>
+              <button class="btn btn-primary">詳細資訊</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="21.jpg" width="450" height="350" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight:bold;">Shéyaa Bin Abraham-Joseph</h5>
+              <p class="card-text" style="text-align:justify;">
+                擅長科目：Python<br>
+                洪威老師習慣以親近以及輕鬆好記的方式帶領學生掌握英文，使學生喜歡上英文並且讓英文成為生活的一部份。
+              </p>
+              <button class="btn btn-primary">詳細資訊</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 學員心得 -->
+    <!-- div.container 代表產生 div class="container"
+    style="margin top:30px" -->
+    <div class="container" style="margin-top: 50px;">
+      <h1 class="mt-5"><a name="Experience">學員心得</a></h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 mb-3">
+          <div class="media">
+            <img src="下載.jpg" width="200" height="200" class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0" style="font-weight:bold;">統神</h5>
+              <div style="text-align:justify;">
+                <p>Everybody rock with me because I'm up now
+                  Took your girl and I'ma score like I made the touchdown
+                  Swervin' in that Lambo', doors go up, not on a bus now
+                  Used to want a G-Shock, now I'm walking with a bustdown
+                  Pull up and I'm flooded with a iced out watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-3">
+          <div class="media">
+            <img src="maxresdefault.jpg" width="200" height="200" class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0" style="font-weight:bold;">國棟</h5>
+              <div style="text-align:justify;">
+                <p>Whip, it look like butter, baby, pecan drop
+                  Pecan drop, put that four in Sun Drop
+                  Stack my knots, count a lot, saw a lot
+                  Got them rocks, diamond rocks, whip the pot
+                  Suicide, 1600, that's the block
+                  Hit your girl, that's check-free
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-3">
+          <div class="media">
+            <img src="uMQkS0c-_400x400.jpg" width="200" height="200" class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0" style="font-weight:bold;">學員A</h5>
+              <div style="text-align:justify;">
+                <p>She ain't used to text me
+                  Now she wanna caress me
+                  She keep tryna neck me
+                  I gotta tell my bestie
+                  Someone call my bestie
+                  Think I found my bestie
+                  Link up, make a check bleed
+                  You know that I'm smokin' dope, I'll be high 'til next week
+                  Know I had to let her go 'cause she can't arrest me</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-3">
+          <div class="media">
+            <img src="Daniel-Negreanu-Oct-2016-A-1200x900.jpg" width="200" height="200" class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0" style="font-weight:bold;">學員B</h5>
+              <div style="text-align:justify;">
+                <p>
+                  Uh, money on the floor just like some shoes, yeah
+                  I'ma fuck your thot, she just a swoop, hah, yeah
+                  I'ma fuck your thot, she just a swoop, hah, yeah
+                  And I love my goons, yeah
+                  And I love my tool (Yeah), yeah (Yeah)
+                  And I love my loot (What?), yeah
+                  Fuck with me and you gon' lose (What?)
+                  Don't talk to me, just talk to my lil' dude
+                  Don't talk to me, just talk to my lil' dude
+                  
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  
+    <!-- 學員成果 -->
+    <div class="container">
+      <h1 class="mt-5">成果作品</h1>
+      <div class="row">
+        <!-- col-md-2 切十二等分 -->
+        <!-- col-lg-3 佔三欄 -->
+        <!-- col-12 每一列出現一欄 -->
+        <!-- p-0 = padding-0 消除背景顏色 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="500x500.jpg" width="450" height="450" alt=""></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="uziC.jpg" width="450" height="450" alt=""></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="21 savage_I am I was.jpg" width="450" height="450" alt=""></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="gbgr.jpg" width="450" height="450" alt=""></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="500x500 (1).jpg" width="450" height="450" alt=""></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white mb-3 p-0 mr-3"><img class="img-fluid" src="500x500 (2).jpg" width="450" height="450" alt=""></div>
+
+
+      </div>
+    </div>
+    <article class="copyright card-title" style="text-decoration: underline;text-align: center;">*Copyright 2021 t.m.educationinstitute All Rights Reserved.Powered by S3rge.
+</article>
+    <a class="gotop" onclick="GoTop()">
+      <font color="white">Top</font>
+    </a>
+    <script>
+      function GoTop() {
+        $("html,body").animate({
+          scrollTop: 0
+        }, 500);
+      }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  
+  
+  
+  </body></html>
